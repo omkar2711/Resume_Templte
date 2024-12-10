@@ -1,0 +1,251 @@
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+% \usepackage{hyperref}
+\RequirePackage{fontawesome5}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Omkar Bharitkar} \\ \vspace{1pt}
+    Pune, Maharashtra \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 7057006704 ~ \href{mailto:omkarbharitkar79@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{omkarbharitkar79@gmail.com}} ~ 
+    \href{https://linkedin.com/in/omkar-bharitkar-88a912200/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/omkar-bharitkar}}  ~
+    \href{https://github.com/omkar2711}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/omkar2711}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Information Technology Pune}{Dec. 2020 -- June 2024}
+      {Bachelor of Technology in Electronics and Communication $|$ CGPA : 7.82}{Pune, Maharashtra}
+       {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Analysis Of Algorithms, Object Oriented Programming, Databases.}}}
+  \resumeSubHeadingListEnd
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {upGrad}{July 2024 -- Present}
+      {Associate - Content}{Mumbai, Maharashtra}
+      \resumeItemListStart
+        \resumeItem{Assisted senior instructors in teaching \textbf{80+} students across \textbf{4} batches in Full Stack Development.}
+        \resumeItem{Created curriculum, incorporating industry insights and practical case studies to enhance learning.}
+        \resumeItem{Led doubt-solving sessions and provided personal guidance to support learners in understanding key concepts.}
+        \resumeItem{Designed \textbf{capstone web development projects} to give students hands-on experience with real-world applications.}
+      \resumeItemListEnd
+ \resumeSubheading
+      {upGrad}{March 2024 -- July 2024}
+      {Technical Content Strategist Intern}{Mumbai, Maharashtra}
+      \resumeItemListStart
+        \resumeItem{Directed content development for a \textbf{full stack development} cohort, with a strong emphasis on practical skills.}
+        \resumeItem{Collaborated closely with industry experts to ensure the curriculum met current and evolving professional standards.}
+        \resumeItem{Utilized Java for implementing data structures and employed the \textbf{MERN \& PERN Stack} for full-stack development projects.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {SyncSense - Fourie.ai}{Oct. 2023 -- March 2024}
+      {Software Development Engineer Intern}{Bangalore, Karnataka}
+      \resumeItemListStart
+        \resumeItem{Migrated backend from Django to \textbf{NodeJS} with \textbf{Express} using a \textbf{3-layered} architecture, enhancing scalability for \textbf{thousands of daily users}.}
+        \resumeItem{Developed a dynamic platform with \textbf{NextJS}, improving frontend responsiveness and reducing page load times by \textbf{30\%}.}
+        \resumeItem{Optimized the library page, cutting load times by \textbf{40\%}, significantly enhancing the user experience.}
+        \resumeItem{Conducted \textbf{100+} code reviews and API testing using \textbf{Postman} to validate responses from Deep Learning models.}
+      \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Wanderer} \href{https://github.com/omkar2711/Wanderer}{\faLink} $|$ \emph{ReactJS, JavaScript, Material UI}}{March 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a map interface using Google Maps API, allowing users to explore \textbf{100+} restaurants, hotels, and attractions within a defined radius.}
+            \resumeItem{Integrated \textbf{Rapid API} to fetch real-time data based on Latitude and Longitude, ensuring accurate and up-to-date information for users.}
+            \resumeItem{Enabled users to view ratings and reviews for over \textbf{50+} locations, enhancing the travel planning experience.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Career Plaza App} \href{https://github.com/omkar2711/CareerPlaza}{\faLink}  $|$ \emph{React Native, Expo}}{October 2023}
+          \resumeItemListStart
+            \resumeItem{Created a cross-platform application using \textbf{React Native} to provide a centralized platform for job searching.}
+            \resumeItem{Processed user-input data to deliver relevant job openings, optimizing the job-seeking process for efficiency.}
+            \resumeItem{Leveraged Postman for thorough analysis of \textbf{JSON data}, ensuring integration with the UI for a user-friendly experience.}
+          \resumeItemListEnd 
+          \vspace{-20pt}
+          \resumeProjectHeading
+          {\textbf{Smart Waste Segregation System}  \href{https://github.com/omkar2711/WasteSegregation}{\faLink} $|$ \emph{C++, Arduino Uno, Devices}}{November 2022}
+          \resumeItemListStart
+            \resumeItem{Engineered a waste management system, automating dry and wet waste segregation for sustainable disposal practices.}
+            \resumeItem{Designed and constructed a moisture detection sensor using easily accessible materials, such as aluminum foil.}
+            \resumeItem{Utilized sensor and actuator technology for source segregation, ensuring effective waste separation at the point of origin.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C++, JAVA, Python, HTML/CSS, JavaScript, TypeScript, SQL} \\
+     \textbf{Technologies/Frameworks}{: ReactJS, NextJS, Git, GitHub, Tailwind CSS, MongoDB, PostgreSQL}\\
+     \textbf{familiar With}{: Material UI, Ant Design, GraphQL, Prisma, Firebase, Prettier, CI/CD} \\
+    \textbf{Application Proficiency }{:VS Code, Figma, Jira, Confluence, Postman, AWS S3} \\
+    \textbf{Links}{: {\href{https://leetcode.com/Omkar27/}
+            {Leetcode}} $|$ {\href{https://omkar-bharitkar-portfolio.vercel.app/}
+            {Portfolio}} $|$ {\href{https://udemy-certificate.s3.amazonaws.com/pdf/UC-45e7d7c0-9d4f-4d9f-bbe2-93af8fa3ae5e.pdf}
+            {Certification}}}
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+ 
+% \section{Certification}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Languages}{: C++, Python, HTML/CSS, JavaScript, TypeScript, SQL} \\
+%      \textbf{Developer Tools}{: VS Code, Sublime Text, Jupyter Notebook} \\
+%      \textbf{Technologies/Frameworks}{: ReactJS, NextJS, Git, GitHub, Tailwind CSS, MongoDB}\\
+%     \textbf{Application Proficiency }{: Figma, Jira, Confluence, Postman, AWS} \\
+%     \textbf{Links}{: {\href{https://leetcode.com/Omkar27/}
+%             {Leetcode}} $|$ {\href{https://omkar-bharitkar-portfolio.vercel.app/}
+%             {Portfoilo}} $|$ {\href{https://udemy-certificate.s3.amazonaws.com/pdf/UC-45e7d7c0-9d4f-4d9f-bbe2-93af8fa3ae5e.pdf}
+%             {Certification}}}
+%     }}
+%  \end{itemize}
+%  \vspace{-16pt}
+ 
+%-----------INVOLVEMENT---------------
+\section{Leadership / Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Entrepreneurship Cell}{Aug 2021 -- June 2024}{Public Relations Head}{IIIT Pune}
+            \resumeItemListStart
+                \resumeItem{Orchestrated successful promotional events, effectively communicating the mission and objectives to a diverse audience.}
+                \resumeItem{Coordinated with various stakeholders including industry professionals, sponsors to secure partnerships and support.}
+                \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+ 
+\end{document}
